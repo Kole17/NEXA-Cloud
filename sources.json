@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "region": "RS",
+  "sources": [
+    {
+      "url": "https://www.open-epg.com/files/serbia1.xml.gz",
+      "format": "xmltv-gzip"
+    },
+    {
+      "url": "https://free-epg.de/api/epg/rs.xml.gz",
+      "format": "xmltv-gzip"
+    }
+  ],
+  "refresh_seconds": 21600,
+  "mode": "direct-client-fetch"
+}
